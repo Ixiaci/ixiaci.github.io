@@ -1,0 +1,169 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #ADC4CE;
+}
+
+.batas {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #0d182e;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 250px;
+    height: 250;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .desc {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'comic sans ms';
+    color: aqua;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: aqua;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.discord {
+    background: #2289fd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.whatsapp {
+    background: #2289fd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru {
+    background: #2289fd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.whatsapp:hover {
+    background: #0eb3ff;
+    text-decoration: none;
+}
+
+a.discord:hover {
+    background: #0eb3ff;
+    text-decoration: none;
+}
+
+a.tbl-biru:hover {
+    background: #0eb3ff;
+    text-decoration: none;
+}
+
+a.tbl-yt {
+    background: #2289fd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+a.tbl-yt:hover {
+    background: red;
+    text-decoration: none ;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
