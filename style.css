@@ -4,6 +4,17 @@
     padding: 0px;
 }
 
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter,Helvetica,Arial,system-ui,-apple-system;
+    font-feature-settings: normal;
+    font-variation-settings: normal
+}
+
 body {
     margin: 0px;
     padding: 0px;
