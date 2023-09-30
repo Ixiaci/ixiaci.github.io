@@ -153,6 +153,11 @@ a.discord:hover {
     text-decoration: none;
 }
 
+a.host:hover {
+    background: #0eb3ff;
+    text-decoration: none;
+}
+
 a.tbl-biru:hover {
     background: #0eb3ff;
     text-decoration: none;
